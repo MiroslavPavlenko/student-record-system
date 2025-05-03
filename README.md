@@ -2,7 +2,7 @@
 
 ## Overview
 
-* is a Java-based desktop application for managing school records of two types: * and *. It provides a simple graphical user interface (GUI) using Java Swing’s `JOptionPane` dialogs to allow users to add new records, find existing records by ID, and remove records. The data for students and staff is stored in an * database (or any MySQL instance) on the backend, ensuring that records persist between runs. The application is structured with separate classes for students and staff and demonstrates good software practices such as object-oriented design, * to protect object integrity, and external configuration for sensitive information (so passwords and DB connection details are *). 
+* is a Java-based desktop application for managing school records of two types: students and staff. It provides a simple graphical user interface (GUI) using Java Swing’s `JOptionPane` dialogs to allow users to add new records, find existing records by ID, and remove records. The data for students and staff is stored in an * database (or any MySQL instance) on the backend, ensuring that records persist between runs. The application is structured with separate classes for students and staff and demonstrates good software practices such as object-oriented design, * to protect object integrity, and external configuration for sensitive information (so passwords and DB connection details are *). 
 
 *Author: Miroslav Pavlenko (2025).* This project was created as a demonstration of a simple CRUD (Create, Read, Update, Delete) system with a focus on clean code, security, and cloud integration.
 
