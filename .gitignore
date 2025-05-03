@@ -1,16 +1,51 @@
-# Compiled class file
+############################
+# VS Code workspace files  #
+############################
+.vscode/            # launch.json, settings.json, tasks.json, etc.
+
+#################
+# Build output  #
+#################
+# Maven
+/target/
+
+# Gradle
+/build/
+!gradle/wrapper/    # keep the wrapper JARs & properties
+
+################################
+# IntelliJ IDEA / JetBrains    #
+################################
+*.iml
+.idea/
+
+#####################
+# Java byte‑code    #
+#####################
 *.class
 
-# Log file
+#############
+# Logging    #
+#############
 *.log
 
-# BlueJ files
+##########################
+# IDE & tool meta files  #
+##########################
+# BlueJ
 *.ctxt
+
+# Eclipse / JDT LS (used by VS Code Java)
+.project
+.classpath
+.settings/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+########################
+# Package archives     #
+########################
 *.jar
 *.war
 *.nar
@@ -19,6 +54,17 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+#####################################
+# JVM crash reports & heap dumps    #
+#####################################
 hs_err_pid*
 replay_pid*
+*.hprof
+
+###############
+# Terraform   #
+###############
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars

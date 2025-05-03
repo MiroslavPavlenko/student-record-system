@@ -84,6 +84,7 @@ SchoolRecordSystem/
 │
 │
 ├── db/
+│   ├──main.tf
 │   ├── StaffDB.java
 │   └── StudentDB.java
 ├── model/
@@ -98,8 +99,8 @@ SchoolRecordSystem/
 ├── ui/
 │   ├── Interface.java
 ├── config.example.properties
-├── README.md
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
 ## Future Improvements
